@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessImageManagement",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessFaceAggregator", "ServerlessFaceAggregator\ServerlessFaceAggregator.csproj", "{A9792B53-F74F-4631-B52A-7C43E0620A99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessImageManagementTests", "ServerlessImageManagementTests\ServerlessImageManagementTests.csproj", "{F712765C-D090-4DEE-BED0-44DA861B6837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{2C9B2B3C-A35D-4592-A79D-2AE015E816CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A9792B53-F74F-4631-B52A-7C43E0620A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9792B53-F74F-4631-B52A-7C43E0620A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9792B53-F74F-4631-B52A-7C43E0620A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F712765C-D090-4DEE-BED0-44DA861B6837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F712765C-D090-4DEE-BED0-44DA861B6837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F712765C-D090-4DEE-BED0-44DA861B6837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F712765C-D090-4DEE-BED0-44DA861B6837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9B2B3C-A35D-4592-A79D-2AE015E816CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9B2B3C-A35D-4592-A79D-2AE015E816CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9B2B3C-A35D-4592-A79D-2AE015E816CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9B2B3C-A35D-4592-A79D-2AE015E816CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
