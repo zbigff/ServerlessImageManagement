@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Security.Principal;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 using Newtonsoft.Json;
@@ -30,10 +31,14 @@ namespace ServerlessImageManagement
             return imagePath.Replace(Path.GetFileName(imagePath), newFileName);
         }
 
-        public static string WhoAmI()
+        public static string WhoAmI(IIdentity identity)
         {
+#if DEBUG
             return "dummyuser";
+#endif
+            return identity.Name.Replace("@", string.Empty).Replace(".", string.Empty);
         }
+
 
         public static string GetImagePathFromThumbnail(string thumbnailPath)
         {
